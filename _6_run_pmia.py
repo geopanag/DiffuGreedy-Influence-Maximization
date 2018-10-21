@@ -118,7 +118,7 @@ log.write("PMIA for "+fname+" :"+str(time.time()-start)+"\n")
         
 f = open("Seeds/"+fname.replace(".txt","_pmia.txt"),"w")
 for i in S:
-    f.write(str(i)+" ")
+    f.write(str(id_name[i])+" ")
 f.close()    
 
      
