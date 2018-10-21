@@ -65,7 +65,7 @@ Main
 os.chdir("path\\to\\Data")
 
 #------- Compare the neighborhoods of each node in the follower and inferred network
-follow_network = Graph.Read_Ncol("active_graph.txt")
+follow_network = Graph.Read_Ncol("active_network.txt")
 
 #----- To tally the ids in netrate graph with the ids in the follower graph  for the comparison
 top = pd.read_csv("top_nodes.csv")
