@@ -14,7 +14,7 @@ import operator
 import glob
 
 
-def evaluate_distinct(seed_set_cascades,seed_set):
+def evaluate_distinct(seed_set_cascades):
     """
     Measure the number of distinct nodes in the test cascades started from the seed set
     """
@@ -90,7 +90,7 @@ for seed_set_file in glob.glob("Seeds\\"):
         seed_set_cascades = { seed: seed_cascades[seed] for seed in seed_set if len(seed_cascades[seed])>0 }
         print("Seeds found :",len(seed_set_cascades))
     
-        spreading_of_set[seed_set_size] = evaluate_distinct(seed_set_cascades,list(seed_set))
+        spreading_of_set[seed_set_size] = evaluate_distinct(seed_set_cascades)
                 
     pd.DataFrame({"Feature":spreading_of_set.keys(), "Cascade Size":spreading_of_set.values()}).to_csv(seed_set_file.replace("Seeds\\","Results\\spreading_"),index=False)
     
