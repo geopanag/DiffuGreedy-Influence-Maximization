@@ -1,5 +1,5 @@
-#  DiffuGreedy Influence Maximization
-Code and instructions to reproduce the analysis of the paper
+# DiffuGreedy Influence Maximization
+Code and instructions to reproduce the analysis of the paper [DiffuGreedy: An Influence Maximization Algorithm Based on Diffusion Cascades](https://link.springer.com/chapter/10.1007/978-3-030-05411-3_32)
 
 ## Folder structure
 Root folders: Code, Data, Figures
