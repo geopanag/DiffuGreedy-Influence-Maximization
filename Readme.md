@@ -50,5 +50,3 @@ Below is an explanation on how each influence maximization technique is implemen
 - \_2\_train.py extracts the active network for the first 25 days at train\_network.pickle.
 - \_3\_extract\_bernouli\_and\_time.py extracts three weighted networks, with edge weights based on influence strength (literature's Bernoulli-ic), the inverse of average influence delay, and their product. 
 - Use the SIMPATH code and the .inf files from the previous step to derive the seed sets and store them in text files with the same name as the .inf, with format "seed1 seed2 seed3 etc..", in Data\Seeds.
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
