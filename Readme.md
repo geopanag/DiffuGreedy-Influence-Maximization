@@ -50,3 +50,8 @@ Below is an explanation on how each influence maximization technique is implemen
 - \_2\_train.py extracts the active network for the first 25 days at train\_network.pickle.
 - \_3\_extract\_bernouli\_and\_time.py extracts three weighted networks, with edge weights based on influence strength (literature's Bernoulli-ic), the inverse of average influence delay, and their product. 
 - Use the SIMPATH code and the .inf files from the previous step to derive the seed sets and store them in text files with the same name as the .inf, with format "seed1 seed2 seed3 etc..", in Data\Seeds.
+
+
+**License**
+
+- [MIT License](https://github.com/geopanag/DiffuGreedy-Influence-Maximization/blob/master/LICENSE)
